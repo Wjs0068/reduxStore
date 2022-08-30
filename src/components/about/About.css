@@ -1,0 +1,65 @@
+.about-section {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-one {
+  font-size: 4rem;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 14rem;
+}
+
+.about {
+  height: 50rem;
+}
+
+.us {
+  font-size: 7rem;
+  color: #f08080;
+}
+
+.description {
+  font-size: 2.2rem;
+  margin-bottom: 4rem;
+}
+
+.explore2 {
+  font-family: "Kalam";
+  font-size: 4.2rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color: transparent;
+  border-radius: 9px;
+  border: 2px solid black;
+}
+
+.explore2:hover {
+  background-color: black;
+  color: #f08080;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.img-of-cake {
+  height: 40rem;
+  width: 50rem;
+  border-radius: 11px;
+  -webkit-transform: rotate(15deg) scale(1.2);
+  transform: rotate(15deg) scale(1.2);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.img-of-cake:hover {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+}

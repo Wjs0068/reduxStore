@@ -1,0 +1,20 @@
+.navbar__cart-btn {
+  background-color: #f8ad9d;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+
+  border-radius: 7px;
+  border: 2px solid black;
+  font-family: "Kalam";
+}
+
+.navbar__cart-btn:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.3s;
+}

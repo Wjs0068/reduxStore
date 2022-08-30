@@ -1,0 +1,42 @@
+.item-container {
+  width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+
+  box-shadow: 6px 10px 17px 7px rgba(0, 0, 0, 0.15);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.item-container:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+.item-img {
+  width: 47.9rem;
+  height: 36rem;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 0 2rem 2rem 2rem;
+  font-family: "Kalam";
+}
+
+.item-name {
+  font-size: 2.8rem;
+}
+
+.item-cost {
+  font-size: 2.8rem;
+}

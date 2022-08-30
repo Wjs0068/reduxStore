@@ -1,0 +1,12 @@
+.products-container {
+  background-color: #f1f1f1;
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 6rem;
+}
+button {
+  border: none;
+}
